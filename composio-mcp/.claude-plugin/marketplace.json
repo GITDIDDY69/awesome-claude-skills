@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "composio-mcp",
+  "version": "1.0.0",
+  "description": "Composio MCP integration for connecting Claude to 1000+ apps via remote MCP server",
+  "author": "ComposioHQ <tech@composio.dev>",
+  "plugins": [
+    {
+      "name": "composio-mcp",
+      "description": "Set up Composio as a remote MCP server in Claude Code for Gmail, Slack, GitHub, Jira, Notion, Google Drive, and 1000+ more apps with managed OAuth",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}
