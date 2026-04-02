@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.*
+!.env.example
